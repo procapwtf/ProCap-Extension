@@ -23,7 +23,7 @@
 <hr>
 <p>To add the ProCap Extension to your browser, follow the steps below:</p>
 <ol>
-    <li><strong>Download the Extension Files:</strong> Clone or download the project from the (ProCap GitHub repository)[https://github.com/procapwtf/ProCap-Extension/archive/refs/tags/1.0.0.zip]</a>.</li>
+    <li><strong>Download the Extension Files:</strong> Clone or download the project from the ProCap [GitHub repository](https://github.com/procapwtf/ProCap-Extension/archive/refs/tags/1.0.0.zip).</li>
     <li><strong>Open Your Browser's Extensions Page:</strong> 
         <ul>
             <li>For Chrome: Go to <code>chrome://extensions/</code>.</li>
