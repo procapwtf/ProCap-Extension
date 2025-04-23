@@ -5,7 +5,7 @@
 </ul><ul>
 <li>Solves funcaptcha</li>
 </ul><ul>
-<li>Use ProCap on browsers</li>
+<li>Use ProCap on your browser and make it solves captcha for you</li>
 </ul><h2>Features</h2>
 <hr><ul>
 <li>Fast</li>
