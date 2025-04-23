@@ -19,6 +19,14 @@
 <hr>
 <p>This project is actively maintained with ongoing updates.</p>
 
+<h2>Setup</h2>
+<hr>
+<p>To use the ProCap Extension, you will need an API key. Here's how to get started:</p>
+<ol>
+    <li><strong>Create an Account and Get an API Key:</strong> Visit <a href="https://procap.mysellauth.com" target="_blank">procap.mysellauth.com</a> to add balance and generate your API key.</li>
+    <li><strong>Configure the API Key in the Extension:</strong> After receiving your API key, enter it in the settings of the ProCap Extension to activate the captcha-solving functionality.</li>
+</ol>
+
 <h2>Installation</h2>
 <hr>
 <p>To add the ProCap Extension to your browser, follow the steps below:</p>
@@ -38,3 +46,5 @@
 <hr>
 <p>For further inquiries or contributions, feel free to visit the official repository:</p>
 <p><a href="https://github.com/VirusNoirrr" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
+
+<p><strong>GitHub Repository:</strong> <a href="https://github.com/procapwtf/ProCap-Extension/tree/main" target="_blank">ProCap Extension GitHub</a></p>
