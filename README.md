@@ -23,7 +23,7 @@
 <hr>
 <p>To use the ProCap Extension, you will need an API key. Here's how to get started:</p>
 <ol>
-    <li><strong>Create an Account and Get an API Key:</strong> Visit <a href="https://procap.mysellauth.com" target="_blank">procap.mysellauth.com</a> to add balance and generate your API key.</li>
+    <li><strong>Create an Account and Get an API Key:</strong> Visit <a href="https://procap.mysellauth.com" target="_blank">market place</a> to add balance and generate your API key.</li>
     <li><strong>Configure the API Key in the Extension:</strong> After receiving your API key, enter it in the settings of the ProCap Extension to activate the captcha-solving functionality.</li>
 </ol>
 
