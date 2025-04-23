@@ -1,0 +1,45 @@
+{
+    "manifest_version": 3,
+    "name": "ProCap - Extension solver",
+    "version": "1.0",
+    "description": "Solve captcha easily with ProCap's extension",
+    "action": {
+      "default_popup": "procap.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["funcaptcha.js"],
+        "run_at": "document_start",
+        "all_frames": true
+      }
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "storage",
+        "activeTab",
+        "scripting",
+        "<all_urls>",
+        "tabs"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["funcaptchaRequestInterceptor.js"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+
+  }
+  

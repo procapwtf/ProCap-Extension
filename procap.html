@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>ProCap Extension</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="login-section" class="hidden">
+      <h2>Enter your API key</h2>
+      <input type="text" id="apikey-input" placeholder="API Key">
+      <button id="save-apikey">Login</button>
+    </div>
+
+    <div id="main-section" class="hidden">
+      <div class="tabs">
+        <button class="tab" data-tab="account">Account</button>
+        <button class="tab" data-tab="dashboard">Dashboard</button>
+        <button class="tab" data-tab="topup">Top Up</button>
+      </div>
+
+      <div id="account-tab" class="tab-content hidden">
+        <h2>Account Info</h2>
+        <div id="account-info">Loading...</div>
+        <button id="go-dashboard">Go to Dashboard</button>
+      </div>
+
+      <div id="dashboard-tab" class="tab-content hidden">
+        <h2>Dashboard</h2>
+        <button id="open-dashboard">Open Dashboard</button>
+      </div>
+
+      <div id="topup-tab" class="tab-content hidden">
+        <h2>Top Up</h2>
+        <input type="number" id="topup-amount" placeholder="Amount in $" />
+        <button id="topup-button">Create Invoice</button>
+      </div>
+      <div class="toggle-container">
+        <label class="toggle-label">
+          <input type="checkbox" id="toggle-funcaptcha">
+          <span class="slider"></span>
+          Solve Funcaptcha
+        </label>
+      </div>
+      
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="funcaptcha.js"></script>
+</body>
+</html>
