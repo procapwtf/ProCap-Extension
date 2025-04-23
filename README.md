@@ -1,5 +1,7 @@
 <h1>ProCap Extension</h1>
-
+<h2>Introduction</h2>
+<hr>
+<p>This project is actively maintained with continuous updates to improve functionality and performance.</p>
 <h2>General Information</h2>
 <hr>
 <ul>
