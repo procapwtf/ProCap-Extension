@@ -49,4 +49,4 @@
 <p>For further inquiries or contributions, feel free to visit the official repository:</p>
 <p><a href="https://github.com/VirusNoirrr" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
 
-<p><strong>GitHub Repository:</strong> <a href="https://github.com/procapwtf/ProCap-Extension/tree/main" target="_blank">ProCap Extension GitHub</a></p>
+<p><strong>GitHub Repository:</strong> <a href="https://github.com/procapwtf/ProCap-Extension/tree/main" target="_blank">ProCap Extension GitHub</a></p> 
